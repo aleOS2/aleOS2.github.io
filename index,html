@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet"> 
+    <style> 
+    body {font-family: 'Signika', sans-serif; background-color: black;}
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+#nav{
+      border:1px solid #ccc;
+      border-width:1px 0;
+      list-style:none;
+      margin:0;
+      padding:0;
+      text-align:center;
+}
+    
+#nav li{
+      display:inline;
+    }
+    
+#nav a{
+      display:inline-block;
+      padding:10px;
+    }
+a{
+      color:#c00;
+      text-decoration:none;
+      font-weight:bold;
+    }
+a:hover{
+      text-decoration:underline;
+    }
+
+.button {
+  background-color: darkred; /* Green */
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.header {
+  background-color: #333;
+  padding: 1px;
+  height: 45px;
+}
+.left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1%;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+   float: none;
+  position: absolute;
+  top: 1px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.quaranta {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.active {
+  background-color: darkred;
+}
+
+.button4 {border-radius: 12px;}
+
+.bene {
+  position: relative;
+  left: 5px;
+  bottom: 42px;
+}
+.bener {
+  position: relative;
+  left: 58px;
+  bottom: 95px;
+}
+
+.button3 {   
+  border-radius: 12px;
+              margin: 0px 0px;
+              font-size: 16px;
+              padding: 4px;  cursor: pointer;
+
+}
+@media screen and (max-width: 900px){
+ 
+         
+  .bene {
+  position: relative;
+  left: 5px;
+  bottom: 12px;
+}
+.bener {
+  position: relative;
+  left: 58px;
+  bottom: 60px;
+}
+}
+@media screen and (max-width: 800px){
+ 
+}
+    </style>
+  </head>
+  <body style="color:white;">
+    <header></header>
+ 
+
+    <main>
+      
+        
+        <!--aggiungere alle foto nel <: class="img quaranta" per l-autosize-->
+        
+        <ul id="nav">
+         
+          <li><a href="/">Home</a></li>
+          <li><a href="/about/">Cos'è?</a></li>
+          <li><a href="/portfolio/">Scarica</a></li>
+          <li><a href="/archives/">In futuro</a></li>
+          <li><a href="/archives/">Bug trovati</a></li>
+          <li><a href="/archives/">Guida</a></li>
+          <li><a href="/contact/">Contatti</a></li>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button button4" style="vertical-align:middle"><span>Scarica ora </span></a>
+          </ul>
+          <img class="bene" src="Logo.png" width="40" height="40"> 
+          <h3 class="bener">aleOS</h3>
+      <h1 style="font-size:60px;">aleOS 2 sta arrivando.</h1>
+      <h1 style="font-size:30px;">Ora bastato su Arch Linux.</h1>
+      <p style="font-size:25px;"> Prova la versione in anteprima</p>
+      <img class="quaranta" src="Placeholder.png"> 
+      <p style="font-size:30px;">Ora bastato su Arch Linux</p>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button button4" style="vertical-align:middle"><span>Scarica ora </span></a>
+      <h1>1234567890QWERTYUIOPASDFGHJKLZXCVBNM,./?;:'"\|]}[{=+-_(*&^%$#@!~`</h1>
+      <h2>Scarica la versione in anteprima. </h2>
+      <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius blandit nulla eu sagittis. Integer ac bibendum nunc. Cras nec feugiat justo. Maecenas hendrerit diam ipsum. Proin tristique aliquet sapien, et maximus massa tempor at. Ut non neque lacinia, eleifend orci eget, vestibulum arcu. Nunc sed nunc in nunc bibendum pretium.
+
+Praesent et felis in enim ultricies commodo vestibulum ut risus. Phasellus vulputate felis quis elementum elementum. Integer quis ultricies turpis, nec auctor eros. Ut feugiat felis leo, eget pulvinar dolor placerat at. Integer efficitur tellus eu diam feugiat consectetur. Donec porttitor orci ac varius cursus. Mauris nec odio orci. Praesent elit lacus, cursus vel turpis vel, sollicitudin egestas lorem. Curabitur nec facilisis lorem.
+
+Sed efficitur arcu sed ligula interdum rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis mattis bibendum nisl sit amet ullamcorper. Nulla egestas orci et orci fringilla dignissim. Sed ut massa vel metus convallis condimentum sit amet nec enim. Vivamus tincidunt dui vel enim maximus, id lacinia felis facilisis. Ut massa enim, maximus at ante quis, faucibus facilisis magna. Etiam aliquet mi non velit sodales, elementum ullamcorper nulla semper. </h2>
+    </main>
+    <footer></footer>
+  </body>
+</html>
